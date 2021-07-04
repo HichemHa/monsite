@@ -1,0 +1,180 @@
+.container-cc{
+    background-color: #fff;
+    width: 135vh;
+    height: 76vh;
+    z-index: 2;
+    color: black;
+    box-shadow: 0 17px 50px 0 rgb(0 0 0 / 19%), 0 12px 15px 0 rgb(0 0 0 / 24%);
+    border-radius: 3px;
+    text-align: center;
+
+}
+.content-header-cc{
+    /* margin: 10px; */
+    background-color:#E5E5E5 ;
+    padding: 10px;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.title-page{
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    font-size: 3.5rem !important;
+}
+.btn{
+    width: 70px !important;
+    font-size: 2.5rem !important;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #FCA311 !important;
+}
+/* .photo-dev{
+    width: 200px;
+}
+.content-info{
+    display: flex;
+    border: black 1px solid;
+} */
+.content-text{
+    font-size: 14px;
+    text-align: justify;
+  text-justify: inter-word;
+}
+.content-text h2{
+    padding: 10px;
+    
+}
+.content-text P{
+    padding: 10px;
+    width: 86%;
+}
+/* .content-info img{
+    width: 30%;
+    height: auto;
+} */
+h2{
+    font-size: 3rem;
+    font-family: 'Yomogi', cursive !important;
+    padding: 3%;
+}
+h3{
+    font-family: 'Yomogi', cursive;
+}
+.tilte-ws{
+    position: absolute;
+    padding: 80px 112px 83px 120px;
+    top: 247px;
+    left: 373px;
+    background-color: #14213d93;
+    color: #FCA311; visibility: hidden;
+    z-index: 10;
+    
+}
+.tilte-ws2{
+    position: absolute;
+    padding: 80px 132px 83px 132px;
+    top: 247px;
+    left: 795px;
+    background-color: #14213d93;
+    color: #FCA311;
+    visibility: hidden;
+    z-index: 10;
+    
+}
+.tilte-ws3{
+       position: absolute;
+    padding: 78px 95px 85px 97px;
+    top: 240px;
+    left: 1189px;
+    background-color: #14213d93;
+    color: #FCA311;
+    visibility: hidden;
+    z-index: 10;
+    
+}
+
+.content-project:hover .tilte-ws  {
+    visibility: visible !important;
+}
+.content-project2:hover .tilte-ws2  {
+    visibility: visible !important;
+}
+.content-project3:hover .tilte-ws3  {
+    visibility: visible !important;
+}
+
+.project-lists{
+    /* margin-top: 5%; */
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.porject{
+    border:1px solid rgb(0, 0, 0);
+    width: 30%;
+    height: 20vh;
+    vertical-align: center;
+}
+.porject a {
+
+    /* position: relative; */
+    display: none;
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+    /* display: none; */
+    z-index: 10;
+    background-color: #14213dd3;
+    text-decoration: none;
+    color: #FCA311;
+    margin: 0;
+    /* padding: 76px; */
+    position: relative;
+
+    line-height: 180px;
+    text-align: center;
+
+}
+.porject:hover a{
+    display: block !important;
+    color: #FCA311 !important;
+    font-size: 2.5rem;
+  
+}
+/*********************** killls ***************************/
+
+.skils-lists{
+    /* height: 75%; */
+   
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.skills{
+    filter: grayscale(100%);
+    opacity: .6;
+    transition: .1s;
+    width: 13%;
+    height: 17vh;
+    padding-right: 20px;
+    vertical-align: center;
+}
+.skills:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+    margin-top: -5px;
+}
