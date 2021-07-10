@@ -21,34 +21,9 @@ function About() {
 
 
             </div>
-            {/* <div className="content-info">
-                <div className="content-text">
-                    <h2>
-                        What is Lorem Ipsum?
-                    </h2>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                </div>
-                <img src={img} width="300px" />
-            </div> */}
+
             <Container style={{ paddingTop: "20px", borderTop: "1px solid gray" }}>
-                {/* <Row>
-                    <Col sm={8}>
-                        <div className="content-text">
-                            <h2>
-                                What is Lorem Ipsum?
-                            </h2>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                        </div>
-                    </Col>
-                    <Col sm={4}>
-                        <img src={img} width="390px" />
-                    </Col>
-                </Row> */}
-                <Image src={img} width="480px" height="320px" style={{ marginTop: "10px",borderRadius:"5px", border:"1px solid gray"}}  />
+                <Image src={img} width="480px" height="320px" style={{ marginTop: "10px", borderRadius: "5px", border: "1px solid gray" }} />
                 <h2>
                     Hey, i'm Hichem ;)
                 </h2>
