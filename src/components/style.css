@@ -197,7 +197,7 @@ h3{
 @media only screen and (max-width :768px){
     .container-cc{
         width: 98% !important;
-        height: 90%;
+        height: 85vh;
     }
     .container{
         width: 98%;
@@ -215,5 +215,13 @@ h3{
     }
     .img-thumbnail{
         padding: 3.25rem !important;
+    }
+    #tt{
+    font-size: x-large !important;
+    line-height: 111px;
+    }
+    #cp{
+    font-size: x-large !important;
+    line-height: 111px;
     }
 }
